@@ -1,0 +1,42 @@
+// SASS dark mode Root Switch ======
+:root
+    --color-page-bg: #{$color-grey-100}
+    --color-text: #{$color-grey-900}
+    --color-divider: #{$color-grey-200}
+    // Nav
+    --color-nav-bg: #{$color-grey-50}
+    --color-nav-text: #{$color-grey-900}
+    --color-nav-bg-hover: #{$color-grey-900}
+    --color-nav-text-hover: #{$color-grey-500}
+    // Dock
+    --color-doc-div: #{$color-grey-200}
+    --color-doc-div: #{$color-grey-300}
+    // Card
+    --color-card-bg: 255, 255, 255
+    // This varible 👆 is different or broken on purpuse to allow access to the alfa chanel.
+    --color-card-outline: #{$color-grey-200}
+    --color-card-heroImage: #{$color-grey-100}
+    --color-card-heroTitle: #{$color-grey-900}
+    // Icons
+    --icon-window-close: #{$color-grey-900}
+
+    @media (prefers-color-scheme: dark)
+        --color-page-bg: #{$color-black}
+        --color-text: #{$color-grey-100}
+        --color-divider: #{$color-grey-700}
+        // Nav
+        --color-nav-bg: #{$color-grey-900}
+        --color-nav-text: #{$color-white}
+        --color-nav-bg-hover: #{$color-grey-100}
+        --color-nav-text-hover: #{$color-grey-200}
+        // Dock
+        --color-doc-background: #{$color-grey-900}
+        --color-doc-div: #{$color-grey-800}
+        // Card
+        --color-card-bg: 31, 41, 55
+        // This varible 👆 is different or broken on purpuse to allow access to the alfa chanel.
+        --color-card-outline: #{$color-grey-700}
+        --color-card-heroImage: #{$color-grey-100}
+        --color-card-heroTitle: #{$color-grey-900}
+        // Icons
+        --icon-window-close: #{$color-grey-100}
